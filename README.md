@@ -1,4 +1,7 @@
 
+https://res.cloudinary.com/dnjvijsxz/image/upload/v1722949949/Screenshot_2024-08-06_180328_aabdl8.png
+
+
 #pokemon-page  design 
 
 1.initially u will clone the code from github account [...] into a file or u can directly clone into vs code.
