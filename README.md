@@ -2,6 +2,8 @@
 
 ![image alt](https://github.com/jadamanikanta/pokemon-page-/blob/6a1511c1ed6de03f84f5a35a0443d50956cefc7e/images-project/Screenshot%202024-08-06%20180114.png)
 
+![image alt](https://github.com/jadamanikanta/pokemon-page-/blob/2f595c6c1cdd7fe420a2e626dcdf33dfa9698a16/images-project/Screenshot%202024-08-06%20180144.png)
+
 #pokemon-page  design 
 
 1.initially u will clone the code from github account [...] into a file or u can directly clone into vs code.
