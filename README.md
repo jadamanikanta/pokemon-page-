@@ -1,6 +1,6 @@
 
 
-
+![image alt](https://github.com/jadamanikanta/pokemon-page-/blob/6a1511c1ed6de03f84f5a35a0443d50956cefc7e/images-project/Screenshot%202024-08-06%20180114.png)
 
 #pokemon-page  design 
 
