@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CreatePokemonUserPage from '../components/CreatePokemonUser'
+---
+
+<Layout title="Create Pokemon User">
+ 
+    <CreatePokemonUserPage client:only="react" />
+
+</Layout>

@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import AddPokemonPage from '../components/AddPokemon'
+---
+
+<Layout title="Pokemon page">
+ 
+    <AddPokemonPage client:only="react" />
+
+</Layout>

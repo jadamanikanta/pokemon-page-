@@ -1,0 +1,27 @@
+{
+  "name": "pokemon-app",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.1",
+    "@astrojs/react": "^3.6.1",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.6",
+    "@mui/material": "^5.16.6",
+    "astro": "^4.13.1",
+    "axios": "^1.7.3",
+    "cors": "^2.8.5",
+    "react-router-dom": "^6.26.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

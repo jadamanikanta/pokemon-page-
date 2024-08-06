@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ListOfPokemans from '../components/ListOfPokemans'
+---
+
+<Layout title="Pokemon page">
+ 
+    <ListOfPokemans client:only="react" />
+
+</Layout>
