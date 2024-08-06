@@ -2,6 +2,8 @@
 
 ![image alt](https://github.com/jadamanikanta/pokemon-page-/blob/6a1511c1ed6de03f84f5a35a0443d50956cefc7e/images-project/Screenshot%202024-08-06%20180114.png)
 
+![image alt](https://github.com/jadamanikanta/pokemon-page-/blob/d47c0dc8ac92c5d9e8dfd3c9b0d211d5a35c7008/images-project/Screenshot%202024-08-06%20180328.png)
+
 ![image alt](https://github.com/jadamanikanta/pokemon-page-/blob/2f595c6c1cdd7fe420a2e626dcdf33dfa9698a16/images-project/Screenshot%202024-08-06%20180144.png)
 
 ![image alt](https://github.com/jadamanikanta/pokemon-page-/blob/bac569834b234ad0fa9e884962e8ddd91ca21a1a/images-project/Screenshot%202024-08-06%20180212.png)
