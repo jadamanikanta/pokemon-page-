@@ -1,79 +1,79 @@
-import { Router,Request,Response } from "express";
-import adminModel from "../models/admin.model";
-import bcrypt from "bcrypt";
-import jwt from "jsonwebtoken";
+// import { Router,Request,Response } from "express";
+// import adminModel from "../models/admin.model";
+// import bcrypt from "bcrypt";
+// import jwt from "jsonwebtoken";
 
-const AuthRouter = Router();
+// const AuthRouter = Router();
 
 
-AuthRouter.post('/', async (req:Request,res:Response) => {
+// AuthRouter.post('/', async (req:Request,res:Response) => {
 
-    try {
+//     try {
 
         
 
-        const findAdmin:any = await adminModel.findOne({email:req.body.email})
+//         const findAdmin:any = await adminModel.findOne({email:req.body.email})
 
 
-        if (findAdmin) {
-            const valid = await bcrypt.compare(req.body.password, findAdmin.password);
+//         if (findAdmin) {
+//             const valid = await bcrypt.compare(req.body.password, findAdmin.password);
 
-            if (valid) {
+//             if (valid) {
 
-                let token = jwt.sign(
-                    {
-                        email:findAdmin?.email,type:'1'
-                    },
-                    "tenai",
-                    { expiresIn: "24h" }
-                );
-
-
-                res.send({message:'success','token':token,})
-            }
-            else {
-                res.send({message:'wrong Password'})
-            }
-        }
-        else {
-            res.send({message:'user not found'})
-        }
-
-    }
-    catch (err:any) {
-        res.send({message:err.message})
-    }
-})
+//                 let token = jwt.sign(
+//                     {
+//                         email:findAdmin?.email,type:'1'
+//                     },
+//                     "tenai",
+//                     { expiresIn: "24h" }
+//                 );
 
 
-AuthRouter.post('/update-password', async (req:Request,res:Response) => {
+//                 res.send({message:'success','token':token,})
+//             }
+//             else {
+//                 res.send({message:'wrong Password'})
+//             }
+//         }
+//         else {
+//             res.send({message:'user not found'})
+//         }
 
-    try {
+//     }
+//     catch (err:any) {
+//         res.send({message:err.message})
+//     }
+// })
 
-        const find = await adminModel?.findOne({email:'meritguide.india@gmail.com'}) 
 
-        if (find) {
+// AuthRouter.post('/update-password', async (req:Request,res:Response) => {
+
+//     try {
+
+//         const find = await adminModel?.findOne({email:'meritguide.india@gmail.com'}) 
+
+//         if (find) {
        
-      const response = await adminModel?.findOneAndUpdate({email:'meritguide.india@gmail.com'},{password:bcrypt.hashSync(req?.body?.password, 10)})
+//       const response = await adminModel?.findOneAndUpdate({email:'meritguide.india@gmail.com'},{password:bcrypt.hashSync(req?.body?.password, 10)})
 
-      res.send({message:'success',response})}
-      else {
-        res.send({message:'user not found'})
-      }
+//       res.send({message:'success',response})}
+//       else {
+//         res.send({message:'user not found'})
+//       }
 
 
-    }
-    catch (err:any) {
+//     }
+//     catch (err:any) {
 
-        console.log({message:err.message});
+//         console.log({message:err.message});
         
-        res.send({message:'An Error Occured'})
-    }
-})
+//         res.send({message:'An Error Occured'})
+//     }
+// })
 
 
 
 
 
 
-export default AuthRouter
+// export default AuthRouter
